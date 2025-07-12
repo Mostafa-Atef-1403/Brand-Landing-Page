@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>| Loading page |</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="#"><img src="covers/logo.png" class="logo" /></a>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Products</a></li>
+          <li><a href="">New</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="text">
+          <h2>iphone 13 pro</h2>
+          <p>
+            iPhone 13 Pro takes a huge leap forward, bringing incredible speed
+            to everything you do and dramatic new photo and video capabilities —
+            all in two great sizes.
+          </p>
+          <a href="#">All Products</a>
+        </div>
+        <div class="type">
+          <img class="selected" src="covers/0.png" />
+        </div>
+      </div>
+      <div class="switch">
+        <img
+          onclick="switching(this.src); background('linear-gradient(0.25turn, #808080, #d79a38)')"
+          src="covers/0.png"
+        />
+        <img
+          onclick="switching(this.src); background('linear-gradient(0.25turn, #323f47, #8eb5d1)')"
+          src="covers/1.png"
+        />
+        <img
+          onclick="switching(this.src); background('linear-gradient(0.25turn, #000, #4c4a4a)')"
+          src="covers/2.png"
+        />
+        <img
+          onclick="switching(this.src); background('linear-gradient(.25turn, #000, #d1b48e)')"
+          src="covers/3.png"
+        />
+        <img
+          onclick="switching(this.src); background('linear-gradient(.25turn, #000, #d73838)')"
+          src="covers/4.png"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
